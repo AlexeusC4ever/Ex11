@@ -10,7 +10,7 @@ TEST(Train, TEST1) {
     Cage* newCage = new Cage();
     newCage->on();
     newTrain->addCage(newCage);
-    EXPECT_EQ(1, newTrain->get());
+    EXPECT_EQ(1, newCage->get());
 }
 
 TEST(Train, TEST2) {
