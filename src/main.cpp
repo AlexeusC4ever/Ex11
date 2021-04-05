@@ -1,6 +1,6 @@
 // Copyright Baklanov 2021
-#include "train.h"
 #include <iostream>
+#include "train.h"
 
 int main() {
     int i = 0;
