@@ -1,12 +1,12 @@
-﻿// Copyright Baklanov 2021
+﻿//  Copyright Baklanov 2021
 #ifndef INCLUDE_TRAIN_H_
 #define INCLUDE_TRAIN_H_
 
 class Cage {
-private:
+ private:
     bool light;
 
-public:
+ public:
     Cage* next;
     Cage* prev;
     Cage() : light(false), next(nullptr), prev(nullptr) {}
